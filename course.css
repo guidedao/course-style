@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Mono);
+
+.wrapper {
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 24px;
+    line-height: 1.8;
+    color: black;
+}
+
+code {
+    font-family: 'IBM Plex Mono', monospace;
+    padding: 1px 7px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #dfcafa, #c1ecff);
+}
+
+.snippet {
+    font-family: 'IBM Plex Mono', monospace;
+    background: lightgray;
+    color: black;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.recap {
+    border: 5px #0000FF solid;
+    padding: 0 20px 20px 20px;
+    color: #0000FF;
+    margin-bottom: 100px;
+}
+
+.recap h1 {
+    margin-left: 20px;
+    font-size: 50px;
+    line-height: 1;
+}
