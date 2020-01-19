@@ -1,64 +1,17 @@
-<link href="https://dl.dropboxusercontent.com/s/n79g9u3p2iwoqfn/course.css" rel="stylesheet" type="text/css">
-<div class="wrapper"></div>
+<link href="https://moscoding.github.io/course-style/course.css" rel="stylesheet" type="text/css">
+<div class="wrapper">
 
 <p>Метод <code>document.querySelectorAll()</code> возвращает <em>все</em> элементы на странице.</p>
 
-
-
-	<p>Метод <code class="code">document.querySelectorAll()</code> возвращает <em>все</em> отвечающие запросу элементы на странице. В качестве аргумента можно использовать любой CSS-селектор, комбинацию селекторов или даже список из нескольких селекторов через запятую.</p>
-
-	<p class="snippet">// Получить все элементы с классом .rapper
+<p class="snippet">// Получить все элементы с классом .rapper
 		<br>let allRappers = document.querySelectorAll(&#39;.rapper&#39;);
 		<br>
 		<br>// Получить все элементы с атрибутом [data-gang]
-		<br>let allGangs = document.querySelectorAll(&#39;[data-gang]&#39;);</p>
+		<br>let allGangs = document.querySelectorAll(&#39;[data-gang]&#39;);
+</p>
 
-	<p>
-		<br>Метод <code class="code">document.querySelector()</code> возвращает <em>первый&nbsp;</em>подходящий элемент на странице.</p>
-
-	<p class="snippet">// Первый div
-		<br>let firstDiv = document.querySelector(&#39;div&#39;);
-		<br>
-		<br>// Первый div с классом .rapper
-		<br>var firstRapper = document.querySelector(&#39;.rapper&#39;);
-		<br>
-		<br>// Первый div с дата-атрибутом gang равным bloods
-		<br>var firstGang = document.querySelector(&#39;[data-gang=&quot;bloods&quot;]&#39;);
-		<br>
-		<br>// Элемент, которого не существует
-		<br>var searchWarrant = document.querySelector(&#39;.drugs&#39;);</p>
-
-	<p>
-		<br>Если элемента не существует, <code class="code">querySelector()</code> вернет <code class="code">null</code>. При попытке сделать что-то с несуществующим элементом, консоль выдаст ошибку. Перед использованием элемента не лишним будет убедиться в том, что он найден.</p>
-
-	<p class="snippet">// Убедиться в наличии элемента перед обращением к нему
-		<br>if (searchWarrant) {
-		<br>&nbsp; &nbsp;// Предпринять меры...
-		<br>}</p>
-
-	<p>
-		<br>У каждого элемента есть чрезвычайно полезный в ряде случаев метод <code class="code">matches()</code>, которым можно проверить, будет ли элемент найден с помощью селектора или комбинации селекторов. Он возвращает &nbsp;<code class="code">true</code>, если элемент мэтчится и &nbsp;<code class="code">false</code> &mdash; если нет. &nbsp;</p>
-
-	<p class="snippet">let bobbyShmurda = document.querySelector(&#39;#hotnigga&#39;);
-		<br>if (bobbyShmurda.matches(&#39;.snitch&#39;)) {
-		<br>&nbsp; &nbsp;console.log(&#39;Зашквар!&#39;);
-		<br>} else {
-		<br>&nbsp; &nbsp;console.log(&#39;Флекс!&#39;);
-		<br>}</p>
-
-	<p>
-		<br>Существует еще целый ряд методов, позволяющих таргетить элементы конкретного типа. Но большинство из них бесполезны, поскольку всегда удобнее воспользоваться более универсальными <code class="code">querySelector()</code> и <code class="code">querySelectorAll()</code>.
-		<br>
-		<br>К этим методам относятся:
-		<br><code class="code">getElementById()</code> &mdash; возвращает уникальный элемент по указанному айди.
-		<br><code class="code">getElementsByName()</code> &mdash; возвращает нодлист элементов по параметру name.
-		<br><code class="code">getElementsByTagName()</code> &mdash; возвращает элементы, найденные по HTML-тегу.
-		<br><code class="code">getElementsByClassName()</code>&nbsp; &mdash; возвращает элементы по названию CSS-класса.&nbsp;</p>
-	<br>
-	<div class="recap">
-
+<div class="recap">
 		<h1><strong>ПОВТОРИМ</strong></h1>
-
 		<ul>
 			<li><code class="code">querySelectorAll()</code> используется, когда нужно найти все отвечающие запросу элементы на странице.</li>
 			<li><code class="code">querySelector()</code> используется, когда нужен только первый элемент.</li>
