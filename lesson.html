@@ -1,23 +1,45 @@
-<link href="https://moscoding.github.io/course-style/course.css" rel="stylesheet" type="text/css">
+<link
+  href="https://moscoding.github.io/course-style/course.css"
+  rel="stylesheet"
+  type="text/css"
+/>
 <div class="wrapper">
+  <p>
+    Метод <code>document.querySelectorAll()</code> возвращает
+    <em>все</em> элементы на странице.
+  </p>
 
-<p>Метод <code>document.querySelectorAll()</code> возвращает <em>все</em> элементы на странице.</p>
+  <p class="snippet">
+    // Получить все элементы с классом .rapper <br />let allRappers =
+    document.querySelectorAll(&#39;.rapper&#39;);
+    <br />
+    <br />// Получить все элементы с атрибутом [data-gang] <br />let allGangs =
+    document.querySelectorAll(&#39;[data-gang]&#39;);
+  </p>
 
-<p class="snippet">// Получить все элементы с классом .rapper
-		<br>let allRappers = document.querySelectorAll(&#39;.rapper&#39;);
-		<br>
-		<br>// Получить все элементы с атрибутом [data-gang]
-		<br>let allGangs = document.querySelectorAll(&#39;[data-gang]&#39;);
-</p>
-
-<div class="recap">
-		<h1><strong>ПОВТОРИМ</strong></h1>
-		<ul>
-			<li><code class="code">querySelectorAll()</code> используется, когда нужно найти все отвечающие запросу элементы на странице.</li>
-			<li><code class="code">querySelector()</code> используется, когда нужен только первый элемент.</li>
-			<li>Самая большая трудность &mdash; определиться с тем, нужны ли все элементы или только первый.</li>
-			<li>Остальные методы использовать не рекомендуется, но знать о них не помешает.</li>
-			<li>Все методы принадлежат объекту <code class="code">document</code> и вызываться сами по себе не могут &mdash; только через точку.</li>
-		</ul>
-	</div>
+  <div class="recap">
+    <h1><strong>ПОВТОРИМ</strong></h1>
+    <ul>
+      <li>
+        <code class="code">querySelectorAll()</code> используется, когда нужно
+        найти все отвечающие запросу элементы на странице.
+      </li>
+      <li>
+        <code class="code">querySelector()</code> используется, когда нужен
+        только первый элемент.
+      </li>
+      <li>
+        Самая большая трудность &mdash; определиться с тем, нужны ли все
+        элементы или только первый.
+      </li>
+      <li>
+        Остальные методы использовать не рекомендуется, но знать о них не
+        помешает.
+      </li>
+      <li>
+        Все методы принадлежат объекту <code class="code">document</code> и
+        вызываться сами по себе не могут &mdash; только через точку.
+      </li>
+    </ul>
+  </div>
 </div>
