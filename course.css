@@ -11,12 +11,19 @@
     color: black;
 }
 
-code {
+code, .key {
     font-family: 'IBM Plex Mono', monospace;
     padding: 1px 7px;
     margin: 0 2px 0;
     border-radius: 5px;
+}
+
+code {
     background: linear-gradient(90deg, #dfcafa, #c1ecff);
+}
+
+.key {
+    border: 1px solid black;
 }
 
 .snippet {
@@ -26,6 +33,8 @@ code {
     border-radius: 5px;
     padding: 20px;
 }
+
+
 
 .recap {
     border: 5px #0000FF solid;
