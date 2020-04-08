@@ -49,6 +49,6 @@ code {
     line-height: 1;
 }
 
-h1 {
+h1:not(:first-child) {
     margin-top: 50px;
 }
