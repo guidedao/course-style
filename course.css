@@ -52,3 +52,7 @@ code {
 h1:not(:first-child) {
     margin-top: 50px;
 }
+
+a {
+    text-decoration: none;
+}
