@@ -39,6 +39,14 @@ code {
     border-radius: 5px;
     padding: 20px;
     color: white;
+    display: flex;
+    align-items:center;
+}
+
+.callout:before {
+    content: "⚠️";
+    font-size: 40px;
+    padding-right: 20px;
 }
 
 
