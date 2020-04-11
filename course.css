@@ -43,7 +43,7 @@ code {
     align-items:center;
 }
 
-.callout:before {
+.callout::before {
     content: "⚠️";
     font-size: 40px;
     padding-right: 20px;
