@@ -11,6 +11,10 @@
     color: black;
 }
 
+p::selection {
+    background: #ffdb3a;
+}
+
 code, .key {
     font-family: 'IBM Plex Mono', monospace;
     padding: 1px 7px;
@@ -34,22 +38,14 @@ code {
     padding: 20px;
 }
 
-.callout {
-    background: yellowgreen;
-    border-radius: 5px;
-    padding: 20px;
-    color: white;
-    display: flex;
-    align-items:center;
+blockquote {
+        border-left: 5px solid #0000ff;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 1.5rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
 }
-
-.callout::before {
-    content: "⚠️";
-    font-size: 40px;
-    padding-right: 20px;
-}
-
-
 
 .recap {
     border: 5px #0000FF solid;
