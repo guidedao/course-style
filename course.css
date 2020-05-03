@@ -1,7 +1,21 @@
 @font-face {
     font-family: "NeueMachina";
-    src: url("/fonts/NeueMachina-Regular.otf") format("otf")
+    font-weight: normal;
+    src: url("https://moscoding.github.io/course-style/fonts/NeueMachina-Regular.otf") format("opentype");
 }
+
+@font-face {
+    font-family: "NeueMachina";
+    font-weight: bold;
+    src: url("https://moscoding.github.io/course-style/fonts/NeueMachina-Ultrabold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "NeueMachina";
+    font-weight: 200;
+    src: url("https://moscoding.github.io/course-style/fonts/NeueMachina-Light.otf") format("opentype");
+}
+
 
 .wrapper {
     font-family: 'NeueMachina', sans-serif;
