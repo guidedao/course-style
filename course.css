@@ -83,3 +83,7 @@ h1:not(:first-child) {
 a {
     color: inherit;
 }
+
+li:not(first-child) {
+    margin-top:1em;
+}
