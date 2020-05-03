@@ -1,8 +1,10 @@
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
-@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Mono);
+@font-face {
+    font-family: "NeueMachina";
+    src: url("/fonts/NeueMachina-Regular.otf") format("otf")
+}
 
 .wrapper {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'NeueMachina', sans-serif;
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
