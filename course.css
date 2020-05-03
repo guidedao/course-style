@@ -39,7 +39,8 @@ code, .key {
 }
 
 code {
-    background: linear-gradient(90deg, #dfcafa, #c1ecff);
+    background:honeydew;
+    color: tomato;
 }
 
 .key {
