@@ -19,7 +19,14 @@
 } */
 
 
-.wrapper, p {
+p {
+    font-family: 'NeueMachina', sans-serif;
+    line-height: 1.8;
+    color: black;
+    font-size:1.5rem;
+}
+
+.wrapper {
     font-family: 'NeueMachina', sans-serif;
     width: 80%;
     max-width: 1200px;
