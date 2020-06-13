@@ -5,25 +5,12 @@
     font-weight: normal;
     src: url("https://moscoding.github.io/course-style/fonts/NeueMachina-Regular.otf") format("opentype");
 }
-/* 
-@font-face {
-    font-family: "NeueMachina";
-    font-weight: bold;
-    src: url("https://moscoding.github.io/course-style/fonts/NeueMachina-Ultrabold.otf") format("opentype");
-}
-
-@font-face {
-    font-family: "NeueMachina";
-    font-weight: 200;
-    src: url("https://moscoding.github.io/course-style/fonts/NeueMachina-Light.otf") format("opentype");
-} */
-
 
 p {
     font-family: 'NeueMachina', sans-serif;
     line-height: 1.8;
     color: black;
-    font-size:1.5rem;
+    font-size: 1.5rem;
 }
 
 .wrapper {
@@ -81,7 +68,7 @@ code {
     border: 5px #0000FF solid;
     padding: 0 20px 20px 20px;
     color: #0000FF;
-    margin-bottom: 100px;
+    margin: 100px 0;
 }
 
 .recap h1 {
