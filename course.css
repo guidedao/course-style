@@ -63,7 +63,7 @@ code {
 
 details .snippet {
     font-family: 'IBM Plex Mono', monospace;
-    background: black;
+    background: darkslategray;
     color: ghostwhite;
     border-radius: 5px;
     padding: 20px 30px;
