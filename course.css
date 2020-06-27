@@ -61,6 +61,14 @@ code {
     padding: 20px 30px;
 }
 
+details .snippet {
+    font-family: 'IBM Plex Mono', monospace;
+    background: black;
+    color: ghostwhite;
+    border-radius: 5px;
+    padding: 20px 30px;
+}
+
 .callout {
     border-left: 5px solid #0000ff;
     padding-top: 1rem;
