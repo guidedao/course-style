@@ -6,6 +6,12 @@
     src: url("https://moscoding.github.io/course-style/fonts/NeueMachina-Regular.otf") format("opentype");
 }
 
+@font-face {
+    font-family: "NeueMachina";
+    font-weight: bold;
+    src: url("https://moscoding.github.io/course-style/fonts/NeueMachina-Ultrabold.otf") format("opentype");
+}
+
 p {
     font-family: 'NeueMachina', sans-serif;
     line-height: 1.8;
