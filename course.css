@@ -61,6 +61,10 @@ code {
     padding: 20px 30px;
 }
 
+.snippet[contenteditable] {
+    border: solid 2px #000099;
+}
+
 details .snippet {
     font-family: 'IBM Plex Mono', monospace;
     background: darkslategray;
