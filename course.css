@@ -67,8 +67,8 @@ code {
 
 details .snippet {
     font-family: 'IBM Plex Mono', monospace;
-    background: #120e8c;
-    color: ghostwhite;
+    background: #b4c5ed;
+    color: #303030;
     border-radius: 5px;
     padding: 20px 30px;
 }
