@@ -108,7 +108,5 @@ li:not(first-child) {
 }
 
 summary {
-  background: #b4c5ed;
-  border-radius: 5px;
   outline: none;
 }
