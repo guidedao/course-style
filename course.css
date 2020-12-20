@@ -106,3 +106,9 @@ a {
 li:not(first-child) {
     margin-top:1em;
 }
+
+summary {
+  background: #b4c5ed;
+  border-radius: 5px;
+  outline: none;
+}
