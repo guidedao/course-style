@@ -108,12 +108,7 @@ li:not(first-child) {
 }
 
 summary {
-  background: repeating-linear-gradient(
-  45deg,
-  gold,
-  gold 100px,
-  black 100px,
-  black 200px);
+  background: #b4c5ed;
   border-radius: 5px;
   outline: none;
 }
