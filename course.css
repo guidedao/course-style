@@ -109,4 +109,12 @@ li:not(first-child) {
 
 summary {
   outline: none;
+  border-radius: 5px;
+  background-color: #b4c5ed;
+  transition: all .3s ease-out;
+  padding: 1rem;
+}
+
+details[open] summary {
+  background-color: white;
 }
