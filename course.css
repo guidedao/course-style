@@ -112,7 +112,7 @@ summary {
   border-radius: 5px;
   background-color: #b4c5ed;
   transition: all .3s ease-out;
-  padding: 1rem;
+  padding: .5rem;
 }
 
 details[open] summary {
