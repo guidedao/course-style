@@ -16,18 +16,16 @@ p {
     font-family: 'NeueMachina', sans-serif;
     line-height: 1.8;
     color: black;
-    font-size: 1.5rem;
 }
 
 .wrapper {
     font-family: 'NeueMachina', sans-serif;
-/*     width: 80%;
-    max-width: 1200px; */
-    max-width: 80ch;
+    width: 80%;
+    max-width: 70ch;
     margin: 0 auto;
     line-height: 1.8;
     color: black;
-    font-size:1.5rem;
+    font-size: calc(1.2rem + 0.5vw);
 }
 
 h1 {
