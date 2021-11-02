@@ -58,7 +58,11 @@ code {
     color: black;
     border-radius: 5px;
     padding: 20px 30px;
-    margin-bottom: 40px;
+}
+
+
+.snippet:not([contenteditable]) {
+   margin-bottom: 40px;
 }
 
 .snippet[contenteditable] {
