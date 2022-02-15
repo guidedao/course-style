@@ -122,5 +122,6 @@ summary {
 }
 
 details[open] summary {
-  background-color: white;
+/*   background-color: white; */
+    outline: none;
 }
