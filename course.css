@@ -112,16 +112,14 @@ li:not(first-child) {
 }
 
 summary {
+  color: white;
   cursor: pointer;
-  outline: 2px solid #151718;
-/*   outline: none; */
   border-radius: 5px;
-/*   background-color: #b4c5ed; */
+  background-color: #0000ff;
   transition: all .3s ease-out;
   padding: .5rem;
 }
 
 details[open] summary {
-/*   background-color: white; */
-    outline: none;
+  background-color: white;
 }
