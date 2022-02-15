@@ -71,8 +71,8 @@ code {
 
 details .snippet:not(.extra) {
     font-family: 'IBM Plex Mono', monospace;
-    background: #b4c5ed;
-    color: #303030;
+/*     background: #b4c5ed; */
+/*     color: #303030; */
     border-radius: 5px;
     padding: 20px 30px;
 }
@@ -113,9 +113,10 @@ li:not(first-child) {
 
 summary {
   cursor: pointer;
-  outline: none;
+  outline: 2px solid #151718;
+/*   outline: none; */
   border-radius: 5px;
-  background-color: #b4c5ed;
+/*   background-color: #b4c5ed; */
   transition: all .3s ease-out;
   padding: .5rem;
 }
